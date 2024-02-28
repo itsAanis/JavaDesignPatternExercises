@@ -10,7 +10,17 @@ class to follow the singleton pattern.
  */
 public class GuessTheNumber {
 
-    public GuessTheNumber() {}
+    private static GuessTheNumber instance;
+
+    private GuessTheNumber() {}
+
+    public static GuessTheNumber getInstance()
+    {
+        if (instance == null) {
+            instance = new GuessTheNumber();
+        }
+        return instance;
+    }
     public void playGame() {
         Random generator = new Random();
         Scanner fromUser = new Scanner(System.in);

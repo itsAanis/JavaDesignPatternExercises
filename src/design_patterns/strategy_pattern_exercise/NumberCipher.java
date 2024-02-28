@@ -1,6 +1,6 @@
 package design_patterns.strategy_pattern_exercise;
 
-public class NumberCipher implements CipherStrategy {
+public class NumberCipher implements ICipherStrategy {
 
     @Override
     public String encode(String input) {

@@ -12,28 +12,35 @@ public class YearDescriber {
 
     private YearDescriber(){}; //static class
 
+
     public static void describeYear() {
         System.out.println("What year would you like to learn about?");
         int year;
 
-        while(true) {
+        while (true) {
             try {
                 year = fromUser.nextInt();
+                processYear(year);
                 break;
             } catch (Exception e) {
                 System.out.println("Please just input a year in the format YYYY!");
             }
         }
+    }
 
+    public static void processYear(int year) {
         String printMessage = year + " was ";
 
-        if((year%4 == 0) || ((year%100 == 0) && !(year%400 == 0))) {
+        if ((year % 4 == 0) || ((year % 100 == 0) && !(year % 400 == 0))) {
             printMessage += "a leap year,";
         } else {
             printMessage += "not a leap year,";
         }
-
         printMessage += " and started on a ";
+        day(year, printMessage);
+    }
+
+    public static void day(int year, String printMessage){
 
         int startDay = (1 + (int)floor((2.6*11) -0.2) - (2*(year/100)) + ((year%100)-1) + (int)floor((double)((year%100)-1) / 4) + (int)floor((double)(year/100) / 4));
         /*
