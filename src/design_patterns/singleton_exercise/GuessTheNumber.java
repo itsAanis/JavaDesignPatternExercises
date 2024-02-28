@@ -21,6 +21,7 @@ public class GuessTheNumber {
         }
         return instance;
     }
+
     public void playGame() {
         Random generator = new Random();
         Scanner fromUser = new Scanner(System.in);
@@ -42,7 +43,7 @@ public class GuessTheNumber {
                 System.out.println(" try again!");
             }
         }
-
+        
         System.out.println("You got it! It was " + targetNumber + " all along!");
     }
 

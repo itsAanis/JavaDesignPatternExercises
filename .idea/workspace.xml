@@ -4,23 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8b76660-850e-4a79-87d2-19fba2d9a58a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/best_practices/QuadrilateralBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/design_patterns/adapter_exercise/IAdult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/design_patterns/adapter_exercise/PensionerAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/best_practices/Quadrilateral.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/best_practices/Quadrilateral.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/best_practices/YearDescriber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/best_practices/YearDescriber.java" afterDir="false" />
+    <list default="true" id="a8b76660-850e-4a79-87d2-19fba2d9a58a" name="Changes" comment="completed design pattern exercises.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/design_patterns/adapter_exercise/Adult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_patterns/adapter_exercise/Adult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_patterns/singleton_exercise/GuessTheNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_patterns/singleton_exercise/GuessTheNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_patterns/strategy_pattern_exercise/CaeserCipher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_patterns/strategy_pattern_exercise/CaeserCipher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_patterns/strategy_pattern_exercise/CipherStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_patterns/strategy_pattern_exercise/ICipherStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_patterns/strategy_pattern_exercise/Encoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_patterns/strategy_pattern_exercise/Encoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_patterns/strategy_pattern_exercise/NumberCipher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_patterns/strategy_pattern_exercise/NumberCipher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +63,20 @@
       <option name="presentableId" value="Default" />
       <updated>1708941525025</updated>
     </task>
+    <task id="LOCAL-00001" summary="completed design pattern exercises.">
+      <option name="closed" value="true" />
+      <created>1709120158901</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1709120158901</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="completed design pattern exercises." />
+    <option name="LAST_COMMIT_MESSAGE" value="completed design pattern exercises." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

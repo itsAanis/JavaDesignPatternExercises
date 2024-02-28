@@ -1,6 +1,6 @@
 package design_patterns.adapter_exercise;
 
-public class Adult implements IAdult{
+public class Adult {
 
     private String name;
     private int age;
